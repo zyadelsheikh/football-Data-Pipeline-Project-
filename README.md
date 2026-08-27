@@ -1,4 +1,4 @@
-# ⚽ Football Analytics Platform
+# Football Analytics Platform
 
 A complete **Data Engineering & Analytics platform** for analyzing player and team performance across the **Top 5 European Football Leagues** from **2017 to 2026**.
 
@@ -8,7 +8,7 @@ The project transforms football data through an ETL workflow into a **Star Schem
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 The platform provides an end-to-end workflow for transforming raw football statistics into structured analytical data and interactive insights.
 
@@ -23,7 +23,7 @@ The main objectives are to:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Category | Technologies |
 |---|---|
@@ -39,7 +39,7 @@ The main objectives are to:
 
 ---
 
-## 🏗️ Data Pipeline Architecture
+##  Data Pipeline Architecture
 
 The project follows a structured analytical data workflow:
 
@@ -68,7 +68,7 @@ The pipeline separates the **data transformation layer**, **storage layer**, and
 
 ---
 
-## 📊 Data Warehouse
+##  Data Warehouse
 
 The analytical model is based on a **Star Schema** designed for efficient analytical queries.
 
@@ -123,11 +123,11 @@ This dimensional model enables analytical queries across multiple dimensions whi
 
 ---
 
-## 📈 Streamlit Analytics Dashboard
+## Streamlit Analytics Dashboard
 
 The final serving layer is an interactive **Streamlit dashboard** designed to explore the processed football data.
 
-### 🏠 Home
+###  Home
 
 Provides a league-wide overview including:
 
@@ -140,7 +140,7 @@ Provides a league-wide overview including:
 
 ![Home Dashboard](images/home.png)
 
-### 👤 Player Season
+### Player Season
 
 Provides detailed player-level analysis:
 
@@ -157,7 +157,7 @@ Provides detailed player-level analysis:
 
 ![Player Analysis](images/player.png)
 
-### 🏆 Team Season
+###  Team Season
 
 Provides team-level analysis:
 
@@ -192,7 +192,7 @@ Additional filters include:
 
 ---
 
-## 🌍 Cross-League Analysis
+##  Cross-League Analysis
 
 The platform supports comparisons between players and teams across different leagues and seasons.
 
@@ -204,7 +204,7 @@ This makes statistical comparisons more meaningful when analyzing competitions w
 
 ---
 
-## 📦 Data Coverage
+##  Data Coverage
 
 The platform covers the **Top 5 European Leagues**:
 
@@ -223,7 +223,7 @@ The platform covers the **Top 5 European Leagues**:
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -262,7 +262,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📁 Data Setup
+##  Data Setup
 
 The dashboard expects the following processed datasets:
 
@@ -283,7 +283,7 @@ prj_fixed.ipynb
 
 ---
 
-## ▶️ Run the Dashboard
+##  Run the Dashboard
 
 Start the Streamlit application:
 
@@ -299,7 +299,7 @@ http://localhost:8501
 
 ---
 
-## ☁️ Azure Synapse Analytics
+##  Azure Synapse Analytics
 
 The platform supports two data sources:
 
@@ -335,7 +335,7 @@ data_source = "azure"
 
 The database layer handles the differences between the local data model and the Azure Synapse schema, allowing the Streamlit pages to use the same internal structure regardless of the underlying data source.
 
-### 🔐 Security
+###  Security
 
 Azure credentials are stored in:
 
@@ -347,7 +347,7 @@ Sensitive credentials should **never be hardcoded or committed to GitHub**.
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Football-Analytics/
@@ -383,7 +383,7 @@ Football-Analytics/
 
 ---
 
-## ⚠️ Data Limitations
+## Data Limitations
 
 The **2025–2026** source dataset contains only basic counting statistics:
 
@@ -398,7 +398,7 @@ The dashboard automatically detects unavailable metrics and displays a warning r
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Potential improvements include:
 
@@ -413,7 +413,7 @@ Potential improvements include:
 
 ---
 
-## 📌 Key Project Highlights
+##  Key Project Highlights
 
 This project demonstrates practical experience with:
 
@@ -430,10 +430,10 @@ This project demonstrates practical experience with:
 
 ---
 
-## 📄 License
+##  License
 
 This project is available under the license specified in the repository.
 
 ---
 
-**Football Analytics Platform — Turning Football Data into Actionable Insights. ⚽📊**
+**Football Analytics Platform — Turning Football Data into Actionable Insights. **
