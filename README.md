@@ -4,7 +4,7 @@ A complete **Data Engineering & Analytics platform** for analyzing player and te
 
 The project transforms football data through an ETL workflow into a **Star Schema data warehouse**, then delivers interactive analytics through a **Streamlit dashboard** with support for **Azure Synapse Analytics**.
 
-![Architecture Diagram](images/architecture.png)
+![Architecture Diagram]
 
 ---
 
@@ -72,7 +72,7 @@ The pipeline separates the **data transformation layer**, **storage layer**, and
 
 The analytical model is based on a **Star Schema** designed for efficient analytical queries.
 
-![Star Schema](images/star_schema.png)
+![Star Schema]
 
 ### Fact Table
 
@@ -138,7 +138,7 @@ Provides a league-wide overview including:
 - General statistics
 - Data export
 
-![Home Dashboard](images/home.png)
+![Home Dashboard]
 
 ### Player Season
 
@@ -155,7 +155,7 @@ Provides detailed player-level analysis:
 - Season-by-season trends
 - Complete season statistics
 
-![Player Analysis](images/player.png)
+![Player Analysis]
 
 ###  Team Season
 
@@ -169,7 +169,7 @@ Provides team-level analysis:
 - Season trends
 - Full squad statistics
 
-![Team Analysis](images/team.png)
+![Team Analysis]
 
 ### 📊 League Ranking
 
@@ -188,7 +188,7 @@ Additional filters include:
 - Position
 - Minimum minutes
 
-![League Ranking](images/ranking.png)
+![League Ranking]
 
 ---
 
